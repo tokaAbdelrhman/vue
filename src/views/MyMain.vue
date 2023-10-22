@@ -14,14 +14,18 @@
       <MenuBar />
     </div>
     <div class="section">
-      <MyMainHeader />
-      <MuMain1 />
-      <MainCoVue />
-      <MuTempVue />,
+      <div><MyMainHeader /></div>
+      <div><MuMain1 /></div>
+      <div><MainCoVue /></div>
+      <div>
+        <MyMain3Vue />
+        <MuTempVue />
+      </div>
     </div>
   </div>
 </template>
 <script>
+import MyMain3Vue from "@/components/body/main3/MyMain3.vue";
 import MainCoVue from "@/components/body/main2/MainCon.vue";
 import MyMainHeader from "@/components/header/MyMainHeader.vue";
 import MenuBar from "@/components/aside/MenuBar.vue";
@@ -29,6 +33,7 @@ import MuMain1 from "@/components/body/main1/MuMain1.vue";
 import MuTempVue from "@/components/body/main3/MuTemp.vue";
 export default {
   components: {
+    MyMain3Vue,
     MyMainHeader,
     MenuBar,
     MuMain1,

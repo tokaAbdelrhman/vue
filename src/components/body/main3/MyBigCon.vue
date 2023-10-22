@@ -16,7 +16,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .con-big {
   width: 215px;
   border-radius: 8px;

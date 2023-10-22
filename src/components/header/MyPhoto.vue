@@ -20,7 +20,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .rigth3 {
   display: flex;
   flex-direction: row;

@@ -4,7 +4,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .img1 img {
   width: 500px;
   height: 300px;

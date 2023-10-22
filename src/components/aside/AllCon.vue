@@ -41,7 +41,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 ul li {
   list-style: none;
   margin-left: -170px;

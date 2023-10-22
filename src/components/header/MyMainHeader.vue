@@ -22,7 +22,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .head-con {
   padding-top: 30px;
   position: sticky;

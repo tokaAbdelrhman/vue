@@ -18,7 +18,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .fa-bell {
   font-size: 30px;
 }

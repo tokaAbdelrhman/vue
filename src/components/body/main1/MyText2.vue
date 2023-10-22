@@ -13,7 +13,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .text2 {
   display: flex;
   flex-direction: row;

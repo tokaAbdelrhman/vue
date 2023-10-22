@@ -18,7 +18,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .contain-big {
   display: flex;
   flex-wrap: wrap;
