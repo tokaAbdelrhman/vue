@@ -21,6 +21,14 @@
         <MyMain3Vue />
         <MuTempVue />
       </div>
+      <div>
+        <AllMain />
+      </div>
+      <div><AllMain6Vue /></div>
+      <div>
+        <AllMain7 />
+      </div>
+      <div><Main8All /></div>
     </div>
   </div>
 </template>
@@ -31,14 +39,22 @@ import MyMainHeader from "@/components/header/MyMainHeader.vue";
 import MenuBar from "@/components/aside/MenuBar.vue";
 import MuMain1 from "@/components/body/main1/MuMain1.vue";
 import MuTempVue from "@/components/body/main3/MuTemp.vue";
+import AllMain from "@/components/body/main4/AllMain4.vue";
+import AllMain6Vue from "@/components/body/main6/AllMain6.vue";
+import AllMain7 from "@/components/body/main7/AllMain7.vue";
+import Main8All from "@/components/body/main8/Main8All.vue";
 export default {
   components: {
+    Main8All,
     MyMain3Vue,
     MyMainHeader,
     MenuBar,
     MuMain1,
     MainCoVue,
     MuTempVue,
+    AllMain,
+    AllMain6Vue,
+    AllMain7,
   },
 };
 </script>
