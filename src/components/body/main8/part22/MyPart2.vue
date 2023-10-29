@@ -21,22 +21,22 @@ export default {
       all: [
         {
           id: 1,
-          img: "@/assets/platform-1.png",
+          img: require("@/assets/platform-1.png"),
           text: "Open Sea",
         },
         {
           id: 2,
-          img: "@/assets/platform-2.png",
+          img: require("@/assets/platform-2.png"),
           text: "Ralible",
         },
         {
           id: 3,
-          img: "@/assets/platform-3.png",
+          img: require("@/assets/platform-3.png"),
           text: "Myth",
         },
         {
           id: 4,
-          img: "@/assets/platform-4.png",
+          img: require("@/assets/platform-4.png"),
           text: "KnownOrgin",
         },
       ],
@@ -48,7 +48,7 @@ export default {
 .two img {
   width: 40px;
   height: 41px;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 .two div {
   flex-direction: row;

@@ -3,7 +3,7 @@
   <div class="two">
     <div v-for="person in persons" :key="person.id">
       <span>
-        <img :src="person.img" alt="#" />
+        <img :src="person.img" alt="" />
 
         <div class="ps">
           <h4>{{ person.t1 }}</h4>
@@ -25,24 +25,24 @@ export default {
       persons: [
         {
           id: 1,
-          img: "@/assets/creator-1.png",
+          img: require("../../../../assets/creator-1.png"),
           t1: "Alpert Flores",
           t2: "broklnsimons_445",
         },
         {
-          img: "@/assets/creator-2.png",
+          img: require("../../../../assets/creator-2.png"),
           t1: "Alpert Flores",
           t2: "broklnsimons_56",
           id: 2,
         },
         {
-          img: "@/assets/creator-3.png",
+          img: require("../../../../assets/creator-3.png"),
           t1: "Alpert Flores",
           t2: "broklnsimons_77",
           id: 3,
         },
         {
-          img: "@/assets/creator-4.png",
+          img: require("../../../../assets/creator-4.png"),
           t1: "Alpert Flores",
           t2: "broklnsimons_72",
           id: 4,
@@ -71,7 +71,7 @@ span {
 .two img {
   width: 38px;
   height: 38px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .two .ps {
   padding-left: 10px;
