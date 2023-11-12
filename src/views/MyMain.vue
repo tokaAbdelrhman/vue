@@ -29,6 +29,7 @@
         <AllMain7 />
       </div>
       <div><Main8All /></div>
+      <div><AllMain4 /></div>
     </div>
   </div>
 </template>
@@ -43,8 +44,10 @@ import AllMain from "@/components/body/main4/AllMain4.vue";
 import AllMain6Vue from "@/components/body/main6/AllMain6.vue";
 import AllMain7 from "@/components/body/main7/AllMain7.vue";
 import Main8All from "@/components/body/main8/Main8All.vue";
+import AllMain4 from "@/components/body/main5/ALLCon.vue";
 export default {
   components: {
+    AllMain4,
     Main8All,
     MyMain3Vue,
     MyMainHeader,
@@ -82,6 +85,7 @@ export default {
   padding-right: 20px;
   margin: 0px;
   height: 100%;
+  overflow: hidden;
 }
 .aside {
   padding: 10px;
